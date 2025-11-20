@@ -97,4 +97,5 @@ The project is designed with the following tools:
 If you face the error ***entrypoint file not found*** then the solution is changing the entrypoint script file from CRLF -> LF.
 
 ## Conclusion
-This initiative aims to facilitate newcomers and novices in grasping the integration of diverse data engineering tools and data processing methodologies.
+
+This initiative aims to facilitate newcomers and novices in grasping the integration of diverse data engineering tools and data processing methodologies. you can fork and get the starting point from here!
