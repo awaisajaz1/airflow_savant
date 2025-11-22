@@ -60,7 +60,6 @@ def format_json_payload(json_payload):
     
     return data
     
-
 def api_streaming():
     streams = requests.get(api_url)
     if streams:
@@ -78,8 +77,6 @@ def api_streaming():
         disinfected_streams = format_json_payload(source_json_dic) # you can use this fot your need, but i am leaving it here as we donot need this
         
         return disinfected_streams
-
-
 
 def kafka_producer():
     print("stream started!!")
@@ -120,4 +117,5 @@ streatimg_task.set_downstream(print_task)
 # while True:
 #     time.sleep(random.choice(secs))
 #     kafka_producer()
+
     
